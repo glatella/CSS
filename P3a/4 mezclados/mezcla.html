@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head><!-- Contenedor de metadata -->
+		<meta charset="utf-8">
+		<title>Liga de Fútbol Nacional</title>
+	  	<link rel="stylesheet" href="style.css"><!-- Aplicamos el CSS utilizando un fichero externo -->
+	  	<style>
+      		h1 {
+        		background-color: yellow;
+        		font-size: 2.3em;
+        		line-height: 1em;
+        		text-align: center;
+        		border-radius: 15px;
+        		max-width: 700px;
+        	}
+    	</style>
+	</head>
+	 
+	<body><!-- Representa el contenido de un documento HTML -->
+	  	<header id="main-header"><!-- Contiene elementos del encabezado principal, el logo, el nav bar, entre otros -->
+		 	<a id="logo-header" href="#"><!-- Para que sea clickeable, pero por ahora no lleva a ningun sitio -->
+		 	<!-- Agregamos el logo de La liga Santander y le asignamos atributos de texto alternativo y ancho --> 
+	      	<img src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaLiga_Santander.svg" alt="Logo oficial de LaLiga" width="80"/>
+				<span class="site-name">El noticiero de Giuli</span><!-- El nombre y titulo de la pagina -->
+				<span class="site-desc">Deportes / Noticias / LaLiga </span><!-- Subtitulo de la pagina -->
+			</a> 
+	 
+			<nav><!-- Barra de navegacion de la pagina ubicada del lado derecho -->
+				<ul><!-- Lista no ordenada -->
+					<!-- Cada uno de los elementos de la lista son a su vez links que permitirán recorrer la pagina -->
+					<li><a href="#calend">Calendario</a></li>
+					<li><a href="#clasif">Clasifición</a></li>
+				</ul>
+			</nav>
+	  	</header>
+	 	
+	  	<section id="main-content"><!-- Estructurar semánticamente el documento -->
+			<article><!-- Representan artículos relacionados con el exterior -->
+				<header><!-- Contiene elementos del el titulo y el subtitulo -->
+	        		<center>
+	        			<!-- Aqui se dirige la pagina cuando se da click en el nav bar a calendario -->
+	        	   		<h1><a name="calend"> Calendario Liga Santander 2019 - 2020 </a></h1>
+	        			<h1> Primera División </h1>
+	        		</center>
+	        		<h2> Jornadas </h2>
+				</header>
+				<center>
+					<div>
+	            		<label for="op1">Jornada</label><!-- Etiqueta que identifica la responsabilidad del campo -->
+	            		<select id="op1"><!-- Representa un control que muestra un menú de opciones en forma de dropdown -->
+	            			<option value="j0">Selecciona la jornada</option><!-- Opciones del dropdown -->
+	            			<option value="j1">Jornada 1</option><!-- Opciones del dropdown -->
+			              	<option value="j2">Jornada 2</option><!-- Opciones del dropdown -->
+	            		</select>
+	          		</div>
+          		</center>
+          		<!-- Aqui se dirige la pagina cuando se da click en el dropdown a jornada 1 -->
+          		<div id="j1">
+          		<h3>Jornada 1</h3>
+          		<table><!-- Aqui empieza la tabla -->
+				  	<thead><!-- Designamos los espacios que ocuparán las columnas y los titulos de cada una de ellas (en caso de usarlos). -->
+				    	<tr>
+				      		<th scope="col" colspan="1"></th>
+				      		<th scope="col" colspan="3"></th>
+				      		<th scope="col" colspan="2"></th>
+				      		<th scope="col" colspan="3"></th>
+				      		<th scope="col" colspan="1"></th>
+				    	</tr>
+					</thead>
+					<tbody><!-- Empieza el cuerpo de la tabla -->
+					    <tr>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/174.png" height="42" width="42"></td>
+					      	<td>Athletic</td>
+					      	<td>1-0</td>
+					      	<td>Barcelona</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/178.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/176.png" height="42" width="42"></td>
+					      	<td>Celta</td>
+					      	<td>1-3</td>
+					      	<td>Real Madrid</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/186.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/191.png" height="42" width="42"></td>
+					      	<td>Valencia</td>
+					      	<td>1-1</td>
+					      	<td>R. Sociedad</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/188.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/181.png" height="42" width="42"></td>
+					      	<td>Mallorca</td>
+					      	<td>2-1</td>
+					      	<td>Eibar</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/953.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/957.png" height="42" width="42"></td>
+					      	<td>Leganés</td>
+					      	<td>0-1</td>
+					      	<td>Osasuna</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/450.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					    	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/449.png" height="42" width="42"></td>
+					      	<td>Villarreal</td>
+					      	<td>4-4</td>
+					      	<td>Granada</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/5683.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/173.png" height="42" width="42"></td>
+					      	<td>Alavés</td>
+					      	<td>1-0</td>
+					      	<td>Levante</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/855.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/177.png" height="42" width="42"></td>
+					      	<td>Espanyol</td>
+					      	<td>0-2</td>
+					      	<td>Sevilla</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/179.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/185.png" height="42" width="42"></td>
+					      	<td>Betis</td>
+					      	<td>1-2</td>
+					      	<td>Valladolid</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/192.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/175.png" height="42" width="42"></td>
+					      	<td>Atlético</td>
+					      	<td>1-0</td>
+					      	<td>Getafe</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/1450.png" height="42" width="42"></td>
+					    </tr>
+					</tbody>
+				</table>
+				</div>
+
+				<div id="j2">
+          		<h3>Jornada 2</h4>
+          		<table>
+				  	<thead>
+				    	<tr>
+				      		<th scope="col" colspan="1"></th>
+				      		<th scope="col" colspan="3"></th>
+				      		<th scope="col" colspan="2"></th>
+				      		<th scope="col" colspan="3"></th>
+				      		<th scope="col" colspan="1"></th>
+				    	</tr>
+					</thead>
+					<tbody>
+					    <tr>
+					    	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/5683.png" height="42" width="42"></td>
+					    	<td>Granada</td>
+					    	<td>0-1</td>
+					    	<td>Sevilla</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/179.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					    	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/855.png" height="42" width="42"></td>
+					    	<td>Levante</td>
+					    	<td>2-1</td>
+					    	<td>Villarreal</td>
+					    	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/449.png" height="42" width="42"></td>
+					  	</tr>
+					  	<tr>
+					    	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/450.png" height="42" width="42"></td>
+					    	<td>Osasuna</td>
+					    	<td>0-0</td>
+					    	<td>Eibar</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/953.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					    	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/186.png" height="42" width="42"></td>
+					    	<td>Real Madrid</td>
+							<td>1-1</td>
+							<td>Valladolid</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/192.png" height="42" width="42"></td>					      	
+					    </tr>
+					    <tr>
+					    	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/176.png" height="42" width="42"></td>
+					      	<td>Celta</td>
+					      	<td>1-0</td>
+					      	<td>Valencia</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/191.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					    	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/1450.png" height="42" width="42"></td>
+					    	<td>Getafe</td>
+					      	<td>1-1</td>
+					      	<td>Athletic</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/174.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					    	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/173.png" height="42" width="42"></td>
+					      	<td>Alavés</td>
+					      	<td>0-0</td>
+					      	<td>Espanyol</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/177.png" height="42" width="42"></td>					      	
+					    </tr>
+					    <tr>
+					    	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/181.png" height="42" width="42"></td>
+					      	<td>Mallorca</td>
+					      	<td>0-1</td>
+					      	<td>R. Sociedad</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/188.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					    	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/957.png" height="42" width="42"></td>
+					      	<td>Leganés</td>
+					    	<td>0-1</td>
+					    	<td>Atlético</td>
+					      	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/175.png" height="42" width="42"></td>
+					    </tr>
+					    <tr>
+					    	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/178.png" height="42" width="42"></td>
+					    	<td>Barcelona</td>
+					    	<td>5-2</td>
+					    	<td>Betis</td>
+					    	<td><img src="https://e00-marca.uecdn.es/assets/sports/logos/football/png/72x72/185.png" height="42" width="42"></td>
+					    </tr>
+					</tbody>
+				</table>
+
+				<header><!-- Contiene elementos del segundo titulo y el subtitulo -->
+					<center>
+	        			<h1><a name="clasif"> Clasificación de los equipos </a></h1>
+	        		</center>
+	        		<!-- Utilice span para aplicar estilo al texto de manera inline -->
+					<h2>Liga de <span style="color: yellow;">Fútbol nacional</span> 2019-2020</h2>
+				</header>
+				<!-- Aqui comienza la tabla con combinacion de cabeceras superiores y laterales. Tabla con contenidos centrados y título al pie.-->
+				<table>
+					<!--Las filas son representadas por la etiqueta TR (table row) y las celdas dentro de la fila por TD. -->
+					<!-- Esta es la leyenda de la tabla que coloque en la parte inferior-->
+					<caption align="bottom">Tabla de clasificación</caption>  
+					<tr>
+					<!-- Cabeceras superiores -->
+					<td><th>PUESTO</th><th>P.TOTALES</th><th>P.GANADOS</th><th>P.PERDIDOS</th><th>P.EMPATADOS</th><th>GOLES A FAVOR</th><th>GOLES EN CONTRA</th></td>
+					</tr>
+					 
+					<tr align=center><!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>BARCELONA</th><td>1</td><td>22</td><td>7</td><td>3</td><td>1</td><td>29</td><td>14</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>REAL MADRID</th><td>2</td><td>22</td><td>6</td><td>1</td><td>4</td><td>21</td><td>9</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->     
+					<th>REAL SOCIEDAD</th><td>3</td><td>22</td><td>7</td><td>4</td><td>1</td><td>20</td><td>13</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>ATLETICO MADRID</th><td>4</td><td>21</td><td>5</td><td>1</td><td>6</td><td>12</td><td>7</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>SEVILLA</th><td>5</td><td>21</td><td>6</td><td>3</td><td>3</td><td>15</td><td>13</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>GRANADA</th><td>6</td><td>20</td><td>6</td><td>4</td><td>2</td><td>19</td><td>15</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>GETAFE</th><td>7</td><td>19</td><td>5</td><td>3</td><td>4</td><td>18</td><td>15</td>
+					</tr>
+
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>VILLARREAL</th><td>8</td><td>18</td><td>5</td><td>4</td><td>3</td><td>25</td><td>16</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>OSASUNA</th><td>9</td><td>18</td><td>4</td><td>2</td><td>6</td><td>16</td><td>13</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>ATH. BILBAO</th><td>10</td><td>17</td><td>4</td><td>3</td><td>5</td><td>11</td><td>7</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>LEVANTE</th><td>11</td><td>17</td><td>5</td><td>5</td><td>2</td><td>15</td><td>14</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->   
+					<th>VALLADOLID</th><td>12</td><td>17</td><td>4</td><td>3</td><td>5</td><td>14</td><td>14</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>VALENCIA</th><td>13</td><td>17</td><td>4</td><td>3</td><td>5</td><td>17</td><td>18</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>EIBAR</th><td>14</td><td>15</td><td>4</td><td>5</td><td>3</td><td>14</td><td>17</td>
+					</tr>
+
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>BETIS</th><td>15</td><td>13</td><td>3</td><td>5</td><td>4</td><td>14</td><td>21</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>ALAVÉS</th><td>16</td><td>12</td><td>3</td><td>6</td><td>3</td><td>11</td><td>18</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>R.C.D. MALLORCA</th><td>17</td><td>11</td><td>3</td><td>7</td><td>2</td><td>9</td><td>18</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>CELTA DE VIGO</th><td>18</td><td>9</td><td>2</td><td>7</td><td>3</td><td>6</td><td>15</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>RCD ESPANYOL</th><td>19</td><td>8</td><td>2</td><td>8</td><td>2</td><td>6</td><td>20</td>
+					</tr>
+					 
+					<tr align=center> <!-- Tipo de alineacion: centrada -->
+					<!-- El formato es: <th>EQUIPO</th><td>PUESTO</td><td>PUNTOS TOTALES</td><td>PARTIDOS GANADOS</td><td>PARTIDOS PERDIDOS</td><td>PARTIDOS EMPATADOS</td><td>GOLES A FAVOR</td><td>GOLES EN CONTRA</td></tr> -->    
+					<th>LEGANÉS</th><td>20</td><td>5</td><td>1</td><td>9</td><td>2</td><td>6</td><td>21</td>
+					</tr>
+				</table>
+				</div>
+			</article> 
+		</section> 
+	</body>
+<!-- Fue necesario incluir este fragmento de javascrip para poder hacer scroll al selecciona alguna opcion en el dropdown. Se utilizo una funcion para manipular de forma sencilla el dom y asi sustraer el elemento del select, para efectuar una accion. En este caso, hacer scroll a una seccion en particular. Se utilizó como referencia el siguiente articulo https://stackoverflow.com/questions/13458823/if-option-selected-scroll-down-the-page  -->
+<script type="text/javascript">
+	  		var select = document.getElementById('op1');
+	  		select.onchange = function(){window.location.hash = this.getElementsByTagName('option')[this.selectedIndex].value;}</script>
+
+</html>
+
+
+		
