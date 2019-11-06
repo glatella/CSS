@@ -1,0 +1,14 @@
+/*Primero, comienzo tratando el objeto img */
+img {
+	padding: 32px;/* Agrego el padding de 32 pixeles*/
+	background-color: yellow;/* Asigno un color de fondo para que asi el padding se torne amarillo */
+  	border: 16px solid orange;/* Ahora toca asignar el borde. Utilizamos un shortcut para asignarle a la vez tamaño y color */
+    margin: 10px; /*Por ultimo, asignamos un margen de 10px*/
+}
+/* Utilizamos inteligentemente el div que designamos con el id imagen como un wrap, y es a este objeto que le asignamos el background rojo. 
+Pero como el div es un objeto de tipo block y nosotros no queremos que ocupe el ancho entero, utilizamos display para cambiar el tipo de 
+representacion a inline-block y woala!!*/
+.imagen{
+	display: inline-block;
+	background-color: red;
+	
