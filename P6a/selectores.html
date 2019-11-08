@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head><!-- Contenedor de metadata -->
+		<meta charset="utf-8">
+		<title>Selectores</title>
+	  	<link rel="stylesheet" href="style.css"><!-- Aplicamos el CSS utilizando un fichero externo -->
+	</head>
+	 
+	<body><!-- Representa el contenido de un documento HTML -->
+		<h1>Tabla de dureza de Mohs</h1>
+        <table><!-- Aqui empieza la tabla -->
+      	<colgroup><!-- Especifica un grupo de una o más columnas en una tabla para formatear. Es útil para aplicar estilos a columnas enteras, en lugar de repetir los estilos para cada celda, para cada fila. Nota: La etiqueta <colgroup> debe ser hija de un elemento <table>, después de cualquier elemento <caption> y antes de cualquier elemento <thead>, <tbody>, <tfoot> y <tr>. -->
+			<col class="grey" />
+		</colgroup>
+			<thead><!-- Designamos los espacios que ocuparán las columnas y los titulos de cada una de ellas. -->
+			   	<tr>
+			   		<th scope="col" colspan="1">Dureza</th>
+			   		<th scope="col" colspan="1">Imagen</th>
+			   		<th scope="col" colspan="1">Mineral</th>
+			   		<th scope="col" colspan="1">Se raya con / raya a</th>
+			   		<th scope="col" colspan="1">Composición química</th>
+			  	</tr>
+			</thead>
+			<tbody><!-- Empieza el cuerpo de la tabla -->
+			    <tr>
+			      	<td>1</td>
+			      	<td><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/TalcoEZ.jpg" height="42" width="42"></td>
+			      	<td>Talco</td>
+			      	<td>Se puede rayar fácilmente con la uña</td>
+			      	<td>Mg3Si4O10(OH)2</td>
+			    </tr>
+			    <tr>
+			      	<td>2</td>
+			      	<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Gips_-_Lubin%2C_Poland..jpg/800px-Gips_-_Lubin%2C_Poland..jpg" height="42" width="42"></td>
+			      	<td>Yeso</td>
+			      	<td>Se puede rayar con la uña con más dificultad</td>
+			      	<td>CaSO4·2H2O</td>
+			    </tr>
+			    <tr>
+			    	<td>3</td>
+			      	<td><img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Calcite-67881.jpg" height="42" width="42"></td>
+			      	<td>Calcita</td>
+			      	<td>Se puede rayar con una moneda de cobre</td>
+			      	<td>CaCO3</td>
+			    </tr>
+			     <tr>
+			      	<td>4</td>
+			      	<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Fluorite%2C_gal%C3%A8ne_3.jpg/800px-Fluorite%2C_gal%C3%A8ne_3.jpg" height="42" width="42"></td>
+			      	<td>Fluorita</td>
+			      	<td>Se puede rayar con un cuchillo de acero</td>
+			      	<td>CaF2</td>
+			    </tr>
+			    <tr>
+			      	<td>5</td>
+			      	<td><img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Apatite-Scheelite-Cubanite-204051.jpg" height="42" width="42"></td>
+			      	<td>Apatito</td>
+			      	<td>Se puede rayar difícilmente con un cuchillo</td>
+			      	<td>Ca5(PO4)3(OH-,Cl-,F-)l</td>
+			    </tr>
+			    <tr>
+			      	<td>6</td>
+			      	<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/OrthoclaseBresil.jpg/1024px-OrthoclaseBresil.jpg" height="42" width="42"></td>
+			      	<td>Ortosa</td>
+			      	<td>Se puede rayar con una lija para el acero</td>
+			      	<td>KAlSi3O8</td>
+			    </tr>
+			    <tr>
+			      	<td>7</td>
+			      	<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Quartz%2C_Tibet.jpg/800px-Quartz%2C_Tibet.jpg" height="42" width="42"></td>
+			      	<td>Cuarzo</td>
+			      	<td>Raya el vidrio</td>
+			      	<td>SiO2</td>
+			    </tr>
+			    <tr>
+			      	<td>8</td>
+			      	<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Topaz-k312b.jpg/245px-Topaz-k312b.jpg" height="42" width="42"></td>
+			      	<td>Topacio</td>
+			      	<td>Rayado por herramientas de carburo de wolframio</td>
+			      	<td>Al2SiO4(OH-,F-)2</td>
+			    </tr>
+			    <tr>
+			      	<td>9</td>
+			      	<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/CorindonEZ.jpg/280px-CorindonEZ.jpg" height="42" width="42"></td>
+			     	<td>Corindón</td>
+			      	<td>Rayado por herramientas de carburo de silicio</td>
+			      	<td>	Al2O3</td>
+				</tr>
+			    <tr>
+			      	<td>10</td>
+				   	<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brillanten.jpg/245px-Brillanten.jpg" height="42" width="42"></td>
+				   	<td>Diamante</td>
+				   	<td>El material más duro en esta escala (rayado por otro diamante).</td>
+				   	<td>C</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>			
+</html>

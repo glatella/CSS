@@ -1,0 +1,25 @@
+/*Seleccionamos el tipo de fuente para el cuerpo de la pagina */
+body{
+	font-family:sans-serif;
+}
+/* Alineamos todos los h1 al centro */
+h1{
+	text-align: center;
+}
+/* Asignamos el gradiente que deseamos a la clase .grey */
+.grey{
+	background: linear-gradient(to bottom, #ffffff 0%, #000000 100%);
+	/*background-color: red;*/
+}
+/* Cambiamos el estilo de letra y su grosor */
+th{
+	font-weight: 1000;
+	font-style: italic;
+}
+/* Personalizamos la tabla y las celdas de encabezado. Les asignamos borde y su estilo, color de fondo... */
+table, th{
+	text-align: center;
+	border-style: double;
+	border-radius: 8px;
+  	background-color: #dbdbdb;
+}
